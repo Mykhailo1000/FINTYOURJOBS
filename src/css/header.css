@@ -1,0 +1,108 @@
+.header { 
+    padding: 30px 15px 30px 15px; 
+    background: #F2F3F6; 
+} 
+ 
+.header_left-block { 
+    position: relative; 
+} 
+ 
+.hamburger { 
+    display: block; 
+    position: absolute; 
+    right: 10px; 
+    top: 50%; 
+    transform: translateY(-50%); 
+    height: 20px; 
+} 
+ 
+.hamburger span { 
+    display: block; 
+    width: 24px; 
+    margin-bottom: 5px; 
+    border: 2px solid #111238; 
+    border-radius: 10px; 
+    transition: 0.5s linear; 
+ 
+}
+
+.header_menu {
+    position: fixed;
+    left: 100%;
+    top: 0;
+    width: 50%;
+    height: 100vh;
+    z-index: 20;
+    background-color: rgba( 255, 255, 255, 0.8);
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.menu_active {
+    left: 0;
+}
+
+.header_list {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+    padding: 0;
+    list-style: none;
+}
+
+.hamburger_active span:nth-child(1) {
+    transform: translateY(5px) rotate(-45deg);
+}
+
+.hamburger_active span:nth-child(2) {
+    display: none;
+}
+
+.hamburger_active span:nth-child(3) {
+    transform: translateY(-3px) rotate(45deg);
+}
+
+.header_reg {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px;
+    gap: 10px;
+
+    background: #1A75E8;
+    border-radius: 5px;
+
+    display: flex;
+
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+}
+
+.header_sign {
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #111238;
+
+    position: absolute;
+    width: 50px;
+    height: 19px;
+    left: 1051px;
+    top: 59px;
+    text-decoration: none;
+}

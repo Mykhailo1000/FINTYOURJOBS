@@ -1,0 +1,35 @@
+.find_h2 {
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+
+/* Text/Primary */
+
+    color: #111238;
+}
+
+.find_paragraph {
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+    text-align: center;
+
+    /* Text/Primary */
+
+    color: #111238;
+}
+
+.find_img {
+    position: absolute;
+    width: 545px;
+    height: 558px;
+    left: 735px;
+    top: 168px;
+}
