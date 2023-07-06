@@ -1,17 +1,22 @@
-.find_h2 {
+.find {
+    background: #F2F3F6;;
+    padding: 47px 15px 35px ;
+}
+
+.find_title {
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 900;
     font-size: 24px;
     line-height: 29px;
     text-align: center;
-
-/* Text/Primary */
-
+    
+    /* Text/Primary */
+    
     color: #111238;
 }
 
-.find_paragraph {
+.find_descriptation {
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 400;
@@ -26,10 +31,46 @@
     color: #111238;
 }
 
+.find_for_example_title {
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    color: #B2B2B2;
+
+    /* Inside auto layout */
+}
+
+.find_example_list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    list-style: none;
+}
+
+.find_example_item {
+    padding: 5px 10px;
+
+    border: 1px solid #B2B2B2;
+    border-radius: 5px;
+
+    /* Inside auto layout */
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    /* identical to box height */
+    
+    color: #B2B2B2;
+}
+
 .find_img {
-    position: absolute;
-    width: 545px;
-    height: 558px;
-    left: 735px;
-    top: 168px;
+    width: 90%;
+    margin: 50px auto 0;
+    
 }

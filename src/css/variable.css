@@ -1,0 +1,69 @@
+a {
+    text-decoration: none;
+}
+
+ul {
+    padding: 0;
+}
+
+body {
+    font-family:"Fira Sans";
+    font-style: normal;
+}
+
+.title {
+    color: #111238;
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.descr {
+    color: #111238;
+    text-align: center;
+    font-size: 16px;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.form {
+    border-radius: 5px;
+    border: 1px solid 
+    rgba(209, 209, 209, 0.10);
+    background: var(--inputs-light, #FFFFFF);
+    box-shadow: 0px 4px 25px 0px rgba(15, 17, 56, 0.10);
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 10px 12px 8px;
+}
+
+.form>input {
+    color: #B2B2B2;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+    outline: none;
+}
+
+.form>button {
+    padding: 15px 30px;
+
+    background: #1A75E8;
+    border-radius: 5px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+}
+
+.form>button span {
+    display: none;
+}
+
