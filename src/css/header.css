@@ -68,26 +68,9 @@
     transform: translateY(-3px) rotate(45deg);
 }
 
-.header_reg {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 15px 30px;
-    gap: 10px;
 
-    background: #1A75E8;
-    border-radius: 5px;
-
-    display: flex;
-
-    font-family: 'Fira Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-
-    color: #FFFFFF;
+.header_sign_reg {
+    display: none;
 }
 
 .header_sign {
@@ -97,12 +80,44 @@
     font-size: 16px;
     line-height: 19px;
 
-    color: #111238;
+    /* Text/Primary */
 
-    position: absolute;
-    width: 50px;
-    height: 19px;
-    left: 1051px;
-    top: 59px;
-    text-decoration: none;
+    color: #111238;
+}
+
+.header_reg {
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px;
+    gap: 10px;
+
+    /* Buttons/Primary */
+
+    background: #1A75E8;
+    border-radius: 5px;
+
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+    border: none;
+}
+
+.header_items {
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    /* Text/Primary */
+
+    color: #111238;
 }

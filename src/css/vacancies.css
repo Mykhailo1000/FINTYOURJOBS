@@ -1,0 +1,88 @@
+.vacancies_h2 {
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+
+    /* Text/Primary */
+
+    color: #111238;
+}
+
+.vacancies_item_h5 {
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+        line-height: 17px;
+    /* identical to box height */
+
+
+    /* Text/Primary */
+
+    color: #111238;
+}
+
+.vacancies_item_h4 {
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    /* Text/Primary */
+
+    color: #111238;
+}
+
+.vacancies_item_button {
+    display: inline-flex;
+    padding: 10px 25px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    border-radius: 5px;
+    background: var(--buttons-primary, #1A75E8);
+    
+
+}
+
+.vacancies_item_h6 {
+    color: #B2B2B2;
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.vacancies_item_item {
+    color: var(--inputs-grey, #B2B2B2);
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    display: flex;
+    padding: 5px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    border-radius: 5px;
+    border: 1px solid #B2B2B2;
+}
+
+.vacanies_item_a {
+    color: var(--buttons-primary, #1A75E8);
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
