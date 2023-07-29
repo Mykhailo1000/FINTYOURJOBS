@@ -15,6 +15,39 @@
         width: 150px;
     }
 
+    .search_button_span {
+        display: block;
+    }
+
+    .search_button {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .find_example {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        margin-top: 25px;
+    }
+
+    .search_box {
+        margin-top: 55px;
+    }
+
+    .find_form button>span {
+        display: block;
+    }
+
+    .find_form button {
+        width: 250px;
+        height: 50px;
+        padding: 15px 30px;
+        display: flex;
+        gap: 10px;
+    }
+
 }
 
 @media(min-width: 768px) {
@@ -60,6 +93,39 @@
     .header_box {
         display: block;
     }
+
+    .find_title {
+        font-size: 44px;
+        text-align: left;
+        line-height: 45px;
+    }
+
+    .find_descriptation {
+        font-size: 18px;
+        text-align: left;
+    }
+
+    .find_btn span {
+        display: block;
+
+        color: #FFF;
+        font-family: Fira Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .find_btn {
+        width: 234px;
+        height: 58px;
+        padding: 15px 30px;
+    }
+
+    .find_wrapper {
+        max-width: 90%;
+        margin: 0;
+    }
 }
 @media(min-width:992px) {
     .container {
@@ -71,11 +137,35 @@
         max-width: 460px;
     }
 
+    .find_content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center; 
+    }
+
+    .find_wrapper {
+        max-width: 460px;
+    }
+
+    .find_img {
+        margin: 0;
+        width: 50%;   
+    }
+
+    .find_content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
 
 @media(min-width: 1200px) {
     .container {
         max-width: 1140px;
     }
-}
 
+    .vacancies_list {
+        border-radius: 10px;
+        border: 1px solid var(--cards-border, #C5C9D4);
+    }
+}

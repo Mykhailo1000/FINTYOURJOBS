@@ -12,21 +12,7 @@
     color: #111238;
 }
 
-.vacancies_item_h5 {
-    font-family: 'Fira Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-        line-height: 17px;
-    /* identical to box height */
-
-
-    /* Text/Primary */
-
-    color: #111238;
-}
-
-.vacancies_item_h4 {
+.vacancies_item_title {
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 700;
@@ -38,7 +24,7 @@
     color: #111238;
 }
 
-.vacancies_item_button {
+.vacancies_item_price {
     display: inline-flex;
     padding: 10px 25px;
     justify-content: center;
@@ -47,11 +33,20 @@
 
     border-radius: 5px;
     background: var(--buttons-primary, #1A75E8);
+    border: none;
+
+    color: var(--inputs-light, #FFF);
+    text-align: center;
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
     
 
 }
 
-.vacancies_item_h6 {
+.vacancies_item_subtitle {
     color: #B2B2B2;
     font-family: Fira Sans;
     font-size: 14px;
@@ -60,7 +55,7 @@
     line-height: normal;
 }
 
-.vacancies_item_item {
+.vacancies_categories_item {
     color: var(--inputs-grey, #B2B2B2);
     font-family: Fira Sans;
     font-size: 14px;
@@ -78,11 +73,66 @@
     border: 1px solid #B2B2B2;
 }
 
-.vacanies_item_a {
+.vacanies_item_link {
     color: var(--buttons-primary, #1A75E8);
     font-family: Fira Sans;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+.vacancies_btn {
+    display: inline-flex;
+    padding: 15px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    border-radius: 5px;
+    background: var(--buttons-primary, #1A75E8);
+
+    color: #FFF;
+    display: block;
+    margin: 0 auto;
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+}
+
+.vacancies_item_categories-title {
+    color: #B2B2B2;
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.vacancies_items {
+    display: flex;
+    width: 290px;
+    padding: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    border-radius: 10px;
+    border: 1px solid var(--cards-border, #C5C9D4);
+}
+
+.vacancies_item_list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+}
+
+.vacancies_item_categories-title {
+    text-align: center;
 }
